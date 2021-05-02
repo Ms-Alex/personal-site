@@ -3,7 +3,7 @@ import ProfileImg from "../../assets/me.png";
 
 function Intro() {
     return (
-        <div className="intro">
+        <div className="container-fluid intro">
             <img className="self" src={ProfileImg} alt="Me"/>
             <h2>Hello.</h2>
             <p>I live in Florida - cannot get enough of the weather here. Things I ❤ are️ coffee, my nintendo

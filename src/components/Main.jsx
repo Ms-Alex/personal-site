@@ -4,21 +4,23 @@ import Intro from './main/Intro'
 import About from './main/About'
 import Experience from './main/Experience'
 import Contact from './main/Contact';
+import HR from "./HR";
 
 function Main() {
     return (
         <main>
-            <div className="middle-container">
+            <div className="container middle-container">
                 <Intro />
 
-                <hr/>
+                <HR />
 
                 <div className="profile">
                     <About />
                     <Experience />
                 </div>
 
-                <hr/>
+                <HR />
+
                 <Contact />
             </div>
         </main>

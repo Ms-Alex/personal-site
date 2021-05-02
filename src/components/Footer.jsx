@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer>
-            <div className="bottom-container">
+        <footer className="container-fluid">
+            <div className="container bottom-container">
                 <a className="footer-link" href="https://www.linkedin.com/in/alexandra-hernandez-232976123/">
                     <i className="fab fa-linkedin fa-2x" />
                 </a>

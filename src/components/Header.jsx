@@ -1,5 +1,6 @@
 import React from 'react';
 
+import HR from './HR'
 import Petals from '../assets/petals.png'
 import FemEng from '../assets/female-eng.png'
 
@@ -7,7 +8,7 @@ function Header() {
     return <header>
         <div className="container-fluid top-container">
             <h1>Alexandra Hernandez</h1>
-            <hr />
+            <HR />
             <p>software engineer</p>
 
             <div className="container header-imgs">

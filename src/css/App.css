@@ -7,9 +7,6 @@ body {
 }
 
 h1 {
-  /*margin-top: 0;*/
-  /*margin-bottom: 3%;*/
-
   font-size: 4rem;
   font-family: 'Sacramento', cursive;
   color: #FF686B;
@@ -22,6 +19,7 @@ h2, h3 {
 
 h2  {
   font-size: 2.5rem;
+  padding-bottom: 2%;
 }
 
 a   {
@@ -40,25 +38,43 @@ p   {
   line-height: 2;
 }
 
-hr {
-  width: 8%;
-  border-width: 5px;
-  color: #FF8D8C;
-  border-style: none;
-  border-top-style: dotted;
-
-  padding: 3% 0;
+/**********************/
+/*HR CLASS*/
+/************************/
+.hr-div {
+  color: #FF686B;
+  padding: 3% 0 3%;
 }
+
 
 /**********************/
 /*CONTAINER CLASSESS*/
 /************************/
+
+.navbar {
+  padding-bottom: 0.5rem;
+  background-color: #fcd5ce;
+
+  border-bottom-color: #FF686B;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: #FF686B;
+  padding-left: 2%;
+}
+
 /*top container related*/
 .top-container {
   background-color: #fcd5ce;
   position: relative;
 
-  padding: 3% 15% 7%;
+  padding: 5% 15% 7%;
 }
 
 .header-imgs {
@@ -66,92 +82,66 @@ hr {
   margin: auto;
 }
 
-
-/*!*top container related*!*/
-/*.top-container {*/
-/*  background-color: #fcd5ce;*/
-/*  position: relative;*/
-/*  padding-top: 5%;*/
-/*}*/
-
 /*middle-container related*/
 .middle-container {
   background-color: #fff;
-  padding-top: 3%;
+  padding: 3% 0 1%;
   position: relative;
   z-index: 1;
 }
 
-/*.middle-container {*/
-/*  padding-top: 2%;*/
-/*}*/
+.profile {
+  width: 80%;
+  margin: auto;
 
-/*.skill-img-div {*/
-/*  display: block;*/
-/*  max-height: 100%;*/
-/*}*/
+}
 
-/*.skills-tech, .skills-history  {*/
-/*  width: 75%;*/
-/*  margin: 5% auto;*/
-/*  text-align: left;*/
-/*}*/
+.about {
+  padding-bottom: 5%;
+}
 
-/*.skills-tech {*/
-/*  display: flex;*/
-/*}*/
+.about-desc {
+  text-align: left;
+  padding-bottom: 2%;
+}
 
-/*.techs td {*/
-/*  width: 80%;*/
-/*  padding: 5px;*/
-/*}*/
+.exp-history {
+  text-align: left;
+}
 
-/*.history td {*/
-/*  padding-right: 10%;*/
-/*}*/
+.contact-me {
+  padding: 3% 0;
+}
 
-/*.role {*/
-/*  border-width: 5px;*/
-/*  border-style: none;*/
-/*  border-top-style: solid;*/
-/*  border-color: #FF8D8D;*/
-/*}*/
+.btn {
+  margin: 2% 0;
 
-/*.profile, .contact-me   {*/
-/*  width: 80%;*/
-/*  margin: 5% auto;*/
-/*}*/
+  background-color: #FF8D8D;
+  border: none;
+}
 
-/*.btn    {*/
-/*  margin-top: 2%;*/
-/*  color: #FFFFFF;*/
-/*  font-size: 1rem;*/
-/*  font-weight: 100;*/
-/*  padding: 15px;*/
-/*  background-color: #FF686B;*/
-/*  border: solid #FCD5CE 1px;*/
-/*  text-decoration: none;*/
-/*  display: inline-block;*/
-/*  cursor: pointer;*/
-/*  text-align: center;*/
-
-/*  -webkit-border-radius: 20px;*/
-/*  -moz-border-radius: 20px;*/
-/*  border-radius: 20px;*/
-/*}*/
-/*.btn:hover {*/
-/*  background-color: #FF8D8D;*/
-/*}*/
+.role {
+  padding: 2% 0;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: solid;
+  border-color: #FF8D8D;
+}
 
 /*bottom-container related*/
-.bottom-container {
+footer {
+  padding: 3%;
   background-color: #fcd5ce;
+}
+
+.footer-link {
+  padding: 2% 2%;
 }
 
 .dedication {
   font-size: 0.75rem;
+  padding: 2% 0;
 }
-
 
 /**********************/
 /*IMAGES*/
@@ -161,7 +151,7 @@ hr {
 }
 
 .female  {
-  width: 15%;
+  width: 20%;
   border-radius: 25%;
   padding: 3% 3%;
 
@@ -171,12 +161,13 @@ hr {
 
 .self {
   width: 20%;
+  padding-bottom: 3%;
 }
 
-.skills-img {
-  max-width: 100%;
+.about-img {
+  width: 80%;
   border-radius: 50%;
-  padding-top: 25%;
+  padding-top: 35%;
 }
 
 /******************* MEDIA QUERIES *******************/
@@ -190,5 +181,9 @@ hr {
 
   .petals {
     display: none;
+  }
+
+  .about-img {
+    padding-top: 3%
   }
 }

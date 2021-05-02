@@ -2,10 +2,10 @@ import React from 'react'
 
 function Experience() {
     return (
-        <div className="skills-history">
+        <div className="exp-history">
             <h3>Work Experience</h3>
 
-            <div className="skills-history-desc">
+            <div className="exp-history-desc">
                 <div className="role">
                     <p>
                         <strong>Software Engineer II</strong> @ <span className="career-company">Contrast Security</span>

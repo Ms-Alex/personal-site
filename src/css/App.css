@@ -24,7 +24,6 @@ h2  {
 
 a   {
   color: #FF686B;
-  /*padding: 10px;*/
 
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -51,13 +50,11 @@ p   {
 /*CONTAINER CLASSESS*/
 /************************/
 
+/*navbar related*/
 .navbar {
   padding-bottom: 0.5rem;
   background-color: #fcd5ce;
-
-  border-bottom-color: #FF686B;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  color: #FF686B;
 }
 
 .navbar-brand {
@@ -69,12 +66,25 @@ p   {
   padding-left: 2%;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 104, 107, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-toggler {
+  border-width: 2px;
+  border-color: #FF8D8D;
+}
+
+.navbar-toggler:active {
+  color: #FF8D8D;
+}
+
 /*top container related*/
 .top-container {
   background-color: #fcd5ce;
   position: relative;
 
-  padding: 5% 15% 7%;
+  padding: 10% 15% 7%;
 }
 
 .header-imgs {
@@ -173,7 +183,7 @@ footer {
 /******************* MEDIA QUERIES *******************/
 /*@media <type> <feature>*/
 @media (max-width: 1028px) {
-  /*header imgs*/
+  /*imgs*/
   .female {
     position: static;
     width: 60%;

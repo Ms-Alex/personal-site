@@ -1,3 +1,10 @@
+# Personal Site V2
+
+This project was "duplicated" from my original site that was built with 
+HTML and CSS only (in https://github.com/Ms-Alex/cv).
+
+This project was built with React.js and Bootstrap.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

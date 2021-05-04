@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal-site/static/css/main.5c07ed46.chunk.css",
+    "main.js": "/personal-site/static/js/main.d672690c.chunk.js",
+    "main.js.map": "/personal-site/static/js/main.d672690c.chunk.js.map",
+    "runtime-main.js": "/personal-site/static/js/runtime-main.a894f423.js",
+    "runtime-main.js.map": "/personal-site/static/js/runtime-main.a894f423.js.map",
+    "static/js/2.81f845b5.chunk.js": "/personal-site/static/js/2.81f845b5.chunk.js",
+    "static/js/2.81f845b5.chunk.js.map": "/personal-site/static/js/2.81f845b5.chunk.js.map",
+    "static/js/3.0b383007.chunk.js": "/personal-site/static/js/3.0b383007.chunk.js",
+    "static/js/3.0b383007.chunk.js.map": "/personal-site/static/js/3.0b383007.chunk.js.map",
+    "index.html": "/personal-site/index.html",
+    "static/css/main.5c07ed46.chunk.css.map": "/personal-site/static/css/main.5c07ed46.chunk.css.map",
+    "static/js/2.81f845b5.chunk.js.LICENSE.txt": "/personal-site/static/js/2.81f845b5.chunk.js.LICENSE.txt",
+    "static/media/female-eng.6331cb56.png": "/personal-site/static/media/female-eng.6331cb56.png",
+    "static/media/gopher-unicorn.b6fbb2bd.jpeg": "/personal-site/static/media/gopher-unicorn.b6fbb2bd.jpeg",
+    "static/media/me.a0a809e7.png": "/personal-site/static/media/me.a0a809e7.png",
+    "static/media/petals.45f816ee.png": "/personal-site/static/media/petals.45f816ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a894f423.js",
+    "static/js/2.81f845b5.chunk.js",
+    "static/css/main.5c07ed46.chunk.css",
+    "static/js/main.d672690c.chunk.js"
+  ]
+}
